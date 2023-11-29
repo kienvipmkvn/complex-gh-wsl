@@ -31,9 +31,9 @@ jobs:
         with:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY }}
           aws_secret_key: ${{ secrets.AWS_SECRET_KEY }}
-          application_name: multi-gh
-          environment_name: Multigh-env
-          existing_bucket_name: elasticbeanstalk-us-east-1-923445559289
+          application_name: DTKIEN-DATN
+          environment_name: DTKIEN-DATN-env
+          existing_bucket_name: elasticbeanstalk-ap-southeast-1-028273443908
           region: us-east-1
           version_label: ${{ github.sha }}
           deployment_package: deploy.zip
